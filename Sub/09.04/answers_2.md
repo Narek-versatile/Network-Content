@@ -1,0 +1,61 @@
+# PART 4: SHORT QUIZ (MULTIPLE CHOICE)
+
+1. Which device connects different networks?
+   - A) Switch
+   - **B) Router** ✓
+   - C) Hub
+   - D) NIC
+
+2. Which topology has a central node?
+   - A) Ring
+   - B) Bus
+   - **C) Star** ✓
+   - D) Mesh
+
+3. Which protocol uses port 443?
+   - A) HTTP
+   - **B) HTTPS** ✓
+   - C) FTP
+   - D) SSH
+
+4. Which is a private IP?
+   - A) 8.8.8.8
+   - **B) 192.168.1.5** ✓
+   - C) 1.1.1.1
+   - D) 172.300.1.1
+
+5. What does DNS do?
+   - A) Encrypts data
+   - **B) Converts domain to IP** ✓
+   - C) Sends emails
+   - D) Routes packets
+
+6. Which command checks connectivity?
+   - A) curl
+   - **B) ping** ✓
+   - C) ssh
+   - D) chmod
+
+7. Which is wireless technology?
+   - A) Fiber
+   - B) Ethernet
+   - **C) Wi-Fi** ✓
+   - D) Coaxial
+
+8. What does HTTP stand for?
+   - A) Hyper Transfer Text Protocol
+   - **B) HyperText Transfer Protocol** ✓
+   - C) HighText Transfer Protocol
+   - D) HyperText Transmission Process
+
+9. Which layer concept includes IP addressing?
+   - A) Physical
+   - **B) Network** ✓
+   - C) Application
+   - D) Data link
+
+10. What does a switch do?
+    - A) Connects internet
+    - **B) Connects devices in LAN** ✓
+    - C) Converts signals
+    - D) Provides Wi-Fi

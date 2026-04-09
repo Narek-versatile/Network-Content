@@ -1,0 +1,319 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2026.04.09 21:04:44 =~=~=~=~=~=~=~=~=~=~=~=
+
+
+kuber@DESKTOP-31JVO93:~$ 
+
+kuber@DESKTOP-31JVO93:~$ hostname
+
+DESKTOP-31JVO93
+kuber@DESKTOP-31JVO93:~$ p[
+
+kuber@DESKTOP-31JVO93:~$ ping google.com
+
+PING google.com (172.217.171.78) 56(84) bytes of data.
+64 bytes from hhn03s01-in-f14.1e100.net (172.217.171.78): icmp_seq=1 ttl=114 time=49.5 ms
+64 bytes from hhn03s01-in-f14.1e100.net (172.217.171.78): icmp_seq=2 ttl=114 time=45.4 ms
+64 bytes from hhn03s01-in-f14.1e100.net (172.217.171.78): icmp_seq=3 ttl=114 time=45.1 ms
+64 bytes from hhn03s01-in-f14.1e100.net (172.217.171.78): icmp_seq=4 ttl=114 time=45.1 ms
+64 bytes from hhn03s01-in-f14.1e100.net (172.217.171.78): icmp_seq=5 ttl=114 time=45.1 ms
+^C
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4128ms
+rtt min/avg/max/mdev = 45.074/46.036/49.476/1.725 ms
+kuber@DESKTOP-31JVO93:~$ echo "ping shows the lenght of 1 packet(64bytes)"," "d""I"p" """P" "t"h"a"t" "y"o"u" "a"r"e" "t"r"y"i"n"g" "t"o" "p"i"n"g"," "T"T"L"("t"i"m"e" "t"o" "l"i"v"e")" "t"h"a"t" "s"h"o"w"s" "h"o"w" "m"a"n"y" ""'"c"y"c"l"e"s"'" "d"o"e"s" "t"h"e" "p"a"c"k"e"t" "h"a"v"e" "l"e"f"t" "b"e"f"o"r"e" "'"d"y"i"n"g"'"jumps
+
+ping shows the lenght of 1 packet(64bytes), IP that you are trying to ping, TTL(time to live) that shows how many 'jumps' does the packet have left before 'dying'
+kuber@DESKTOP-31JVO93:~$ 
+
+kuber@DESKTOP-31JVO93:~$ 
+
+kuber@DESKTOP-31JVO93:~$ ip a
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet 10.255.255.254/32 brd 10.255.255.254 scope global lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1280 qdisc mq state UP group default qlen 1000
+    link/ether 00:15:5d:d0:67:ea brd ff:ff:ff:ff:ff:ff
+    inet 172.27.198.205/20 brd 172.27.207.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::215:5dff:fed0:67ea/64 scope link 
+       valid_lft forever preferred_lft forever
+kuber@DESKTOP-31JVO93:~$ ip a | grep inet
+
+    inet 127.0.0.1/8 scope host lo
+    inet 10.255.255.254/32 brd 10.255.255.254 scope global lo
+    inet6 ::1/128 scope host 
+    inet 172.27.198.205/20 brd 172.27.207.255 scope global eth0
+    inet6 fe80::215:5dff:fed0:67ea/64 scope link 
+kuber@DESKTOP-31JVO93:~$ ip a | grep inet 
+
+    inet 127.0.0.1/8 scope host lo
+    inet 10.255.255.254/32 brd 10.255.255.254 scope global lo
+    inet6 ::1/128 scope host 
+    inet 172.27.198.205/20 brd 172.27.207.255 scope global eth0
+    inet6 fe80::215:5dff:fed0:67ea/64 scope link 
+kuber@DESKTOP-31JVO93:~$ ip a | grep inet ""
+
+    inet 127.0.0.1/8 scope host lo
+    inet 10.255.255.254/32 brd 10.255.255.254 scope global lo
+    inet 172.27.198.205/20 brd 172.27.207.255 scope global eth0
+kuber@DESKTOP-31JVO93:~$ if config
+
+> ^C
+
+
+kuber@DESKTOP-31JVO93:~$ if configconfig
+
+Command 'ifconfig' not found, but can be installed with:
+sudo apt install net-tools
+kuber@DESKTOP-31JVO93:~$ echo "no ifconfig insattalled..."
+
+no ifconfig installed...
+kuber@DESKTOP-31JVO93:~$ my Iecho "My ipIP-s ae private because no one has publiv c IP-s for no reason and without knowing. Except that it starts with 172.x.x.x and is within the private range of IP=s-s"r
+
+My IP-s are private because no one has public IP-s for no reason and without knowing. Except that it starts with 172.x.x.x and is within the private range of IP-s
+kuber@DESKTOP-31JVO93:~$ curl example.com
+
+<!doctype html><html lang="en"><head><title>Example Domain</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href="https://iana.org/domains/example">Learn more</a></p></div></body></html>
+kuber@DESKTOP-31JVO93:~$ curl example.com-example.comlexample.com example.com
+
+<!doctype html><html lang="en"><head><title>Example Domain</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href="https://iana.org/domains/example">Learn more</a></p></div></body></html>
+kuber@DESKTOP-31JVO93:~$ ^C
+
+
+kuber@DESKTOP-31JVO93:~$ ^C
+
+
+kuber@DESKTOP-31JVO93:~$ curl -l example.com example.comI example.com
+
+HTTP/1.1 200 OK
+
+Date: Thu, 09 Apr 2026 17:19:12 GMT
+
+Content-Type: text/html
+
+Connection: keep-alive
+
+Server: cloudflare
+
+Last-Modified: Tue, 07 Apr 2026 22:07:08 GMT
+
+Allow: GET, HEAD
+
+Accept-Ranges: bytes
+
+Age: 13638
+
+cf-cache-status: HIT
+
+CF-RAY: 9e9b2ce80bbbdfb0-EVN
+
+
+
+kuber@DESKTOP-31JVO93:~$ echo "few of the headers include Date, Asllowed request types, Age  which shows how many seconds did the middle ma,n like cloudf;llare cache the webpage for you to get it faster."
+
+few of the headers include Date, Allowed request types, Age which shows how many seconds did the middleman like cloudflare cache the webpage for you to get it faster.
+kuber@DESKTOP-31JVO93:~$ c
+
+kuber@DESKTOP-31JVO93:~$ 
+
+kuber@DESKTOP-31JVO93:~$ clear
+
+kuber@DESKTOP-31JVO93:~$ curl -bv google.com
+
+* Host google.com:80 was resolved.
+* IPv6: 2a00:1450:4017:81e::200e
+* IPv4: 172.217.171.78
+*   Trying 172.217.171.78:80...
+* Connected to google.com (172.217.171.78) port 80
+> GET / HTTP/1.1
+
+> Host: google.com
+
+> User-Agent: curl/8.5.0
+
+> Accept: */*
+
+> 
+
+< HTTP/1.1 301 Moved Permanently
+
+< Location: http://www.google.com/
+
+< Content-Type: text/html; charset=UTF-8
+
+< Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-PlMFV6_a5UPPnR4LgLXMcg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+
+< Date: Thu, 09 Apr 2026 17:23:14 GMT
+
+< Expires: Sat, 09 May 2026 17:23:14 GMT
+
+< Cache-Control: public, max-age=2592000
+
+< Server: gws
+
+< Content-Length: 219
+
+< X-XSS-Protection: 0
+
+< X-Frame-Options: SAMEORIGIN
+
+< 
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+
+</BODY></HTML>
+
+* Connection #0 to host google.com left intact
+kuber@DESKTOP-31JVO93:~$ eoecho "-v flag makes sure you see the worflow of connecting gto a server"
+
+-v flag makes sure you see the worflow of connecting gto a server
+kuber@DESKTOP-31JVO93:~$ ss -tuln
+
+Netid                State                 Recv-Q                Send-Q                                Local Address:Port                               Peer Address:Port               Process               
+udp                  UNCONN                0                     0                                        127.0.0.54:53                                      0.0.0.0:*                                        
+udp                  UNCONN                0                     0                                     127.0.0.53%lo:53                                      0.0.0.0:*                                        
+udp                  UNCONN                0                     0                                    10.255.255.254:53                                      0.0.0.0:*                                        
+udp                  UNCONN                0                     0                                         127.0.0.1:323                                     0.0.0.0:*                                        
+udp                  UNCONN                0                     0                                             [::1]:323                                        [::]:*                                        
+tcp                  LISTEN                0                     1000                                 10.255.255.254:53                                      0.0.0.0:*                                        
+tcp                  LISTEN                0                     4096                                  127.0.0.53%lo:53                                      0.0.0.0:*                                        
+tcp                  LISTEN                0                     20                                        127.0.0.1:6010                                    0.0.0.0:*                                        
+tcp                  LISTEN                0                     4096                                     127.0.0.54:53                                      0.0.0.0:*                                        
+
+
+
+
+
+
+
+netstat --version
+
+Command 'netstat' not found, but can be installed with:
+sudo apt install net-tools
+kuber@DESKTOP-31JVO93:~$ curl actcocia.com
+
+kuber@DESKTOP-31JVO93:~$ curl cia.com-cia.comicia.com cia.com
+
+HTTP/1.1 301 Moved Permanently
+
+Date: Thu, 09 Apr 2026 17:30:40 GMT
+
+Content-Length: 0
+
+Connection: keep-alive
+
+Location: https://cia.com/
+
+Speculation-Rules: "/cdn-cgi/speculation"
+
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HZP8sm0pLstPHEm%2B9go727Alzk2vcELrOh8KBD09wTzjsPGS38afDck3BLb10dwWPNKIGOm9VQbLZHgA%2BnKRT2Wquh3gFjv45T4RWSgUE79id3uimuUy1v4X"}]}
+
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+
+Server: cloudflare
+
+CF-RAY: 9e9b3db55ad92af4-EVN
+
+alt-svc: h3=":443"; ma=86400
+
+
+
+kuber@DESKTOP-31JVO93:~$ curl fbi.com
+
+curl: (7) Failed to connect to fbi.com port 80 after 158 ms: Couldn't connect to server
+kuber@DESKTOP-31JVO93:~$ curl gov.am
+
+<html>
+
+<head><title>301 Moved Permanently</title></head>
+
+<body>
+
+<center><h1>301 Moved Permanently</h1></center>
+
+<hr><center>nginx</center>
+
+</body>
+
+</html>
+
+kuber@DESKTOP-31JVO93:~$ curl gov.am-gov.amigov.am gov.am
+
+HTTP/1.1 301 Moved Permanently
+
+Server: nginx
+
+Date: Thu, 09 Apr 2026 17:31:17 GMT
+
+Content-Type: text/html
+
+Content-Length: 162
+
+Connection: keep-alive
+
+Location: https://www.gov.am/
+
+
+
+<html>
+
+<head><title>301 Moved Permanently</title></head>
+
+<body>
+
+<center><h1>301 Moved Permanently</h1></center>
+
+<hr><center>nginx</center>
+
+</body>
+
+</html>
+
+kuber@DESKTOP-31JVO93:~$ curl -X pPOST -d "name=sadAllah:" ^V https://httpbin.org/post?=1775751492777https://httpbin.org/post?=1775751492777
+
+{
+  "args": {
+    "": "1775751492777"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "name": "Allah"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "10", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/8.5.0", 
+    "X-Amzn-Trace-Id": "Root=1-69d7e300-38f299da4531631920592f74"
+  }, 
+  "json": null, 
+  "origin": "5.77.199.59", 
+  "url": "https://httpbin.org/post?=1775751492777"
+}
+kuber@DESKTOP-31JVO93:~$ echo "done here. GBye!"
+
+done here. Bye!
+kuber@DESKTOP-31JVO93:~$ sudo shiutdown now
+
+[sudo] password for kuber: 
+kuber@DESKTOP-31JVO93:~$ 
+Remote side unexpectedly closed network connection
+
+
+
+Session stopped
+    - Press <Return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
